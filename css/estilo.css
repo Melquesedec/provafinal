@@ -149,5 +149,41 @@ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     margin: 0px 0px 0px 10px;
 }
 
+.box-performace{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.performace {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.performacedois{
+    background-color: white;
+    margin: 10px 15px 0px 10px;
+    width: 50%;
+}
+
+.image-mundial{
+    width: 65%;
+}
+
+.mapa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.geralperformace{
+    display: flex;
+}
+
+
 
 
