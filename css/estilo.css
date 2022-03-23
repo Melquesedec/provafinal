@@ -40,17 +40,35 @@ body{
 }
 
 .graficoinicial {
-    height: 46.9vh;
+    height: 30vh;
     background: white;
     width: 33.3%;
-    margin: 15px 10px
+    margin: 10px 10px;
 }
 
-.graficos{
-    margin: 15px 15px;
+.segundografico {
+    height: 20vh;
+    background: white;
+    width: 25%;
+    margin: 5px 10px
+}
+
+.terceirografico {
+    height: 39vh;
+    background: white;
+    width: 50%;
+    margin: 10px 10px;
 }
 
 .grafico_um{
+    display: flex;
+}
+
+.grafico_dois{
+    display: flex;
+}
+
+.grafico_tres{
     display: flex;
 }
 
@@ -58,17 +76,78 @@ body{
     width: 100%;
     max-width: 750px;
     margin: 0 auto;
-  }
+}
   
-  .graph {
-    height: 300px;
-    width: 100%;
-    max-width: 750px;
-    padding: 25px;
-    background-color: #FFF;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  }
+.graph {
+height: 300px;
+width: 100%;
+max-width: 750px;
+padding: 25px;
+background-color: #FFF;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#myChart {
+    display: block !important;
+    width: 573px !important;
+    height: 213px !important;
+}
+
+.geral-salario{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pontuacao {
+    display: flex;
+    justify-content: space-around;
+    height: 32px;
+}
+
+.invoicing {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    /* height: 40px; */
+    margin: 5px 15px 0px 15px;
+    align-items: center;
+}
+
+.botaoum{
+    margin: 0px 0px 0px 463px;
+}
+
+.botaodois{
+    margin: 0px 0px 0px 409px;
+}
+
+.botaotres{
+    margin: 0px 0px 0px 526px;
+}
+
+.botaoquatro{
+    margin: 0px 0px 0px 490px;
+}
+
+.image-perfil{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px 0px 0px;
+}
+
+.perfil{
+    display: flex!important;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.iniciograf{
+    margin: 0px 0px 0px 10px;
+}
 
 
 

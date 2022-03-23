@@ -11,6 +11,7 @@ var chart = new Chart(ctx, {
 			label: "Rainfall",
 			backgroundColor: 'lightblue',
 			borderColor: 'royalblue',
+			border: '100px',
 			data: [26.4, 39.8, 66.8, 66.4, 40.6, 55.2, 77.4, 69.8, 57.8, 76, 110.8, 142.6],
 		}]
 	},
