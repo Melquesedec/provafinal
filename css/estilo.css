@@ -326,3 +326,168 @@ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     margin: 10px;
 }
 
+.botaocoloridoum{
+    height: 15px;
+    width: 15px;
+    background-color: orange;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.botaocoloridodois{
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.botaocoloridotres{
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.geralbotaocolorido{
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+}
+
+.sombraum {
+    background: white;
+    width: 95%;
+    height: 44px;
+    border: 1px solid #e7e0e0;
+    display: flex;
+    align-content: center;
+    padding: 8px;
+    margin: -7px 36px;
+}
+
+.horario{
+    margin: 10px 36px;
+    color: gray;
+}
+
+.horariodois{
+    margin: 0px 36px;
+    color: gray;
+}
+
+.today{
+    color: gray;
+    margin: 2px 12px;
+}
+
+.yesterday{
+    color: gray;
+    margin: 50px 0px 0px 10px;
+}
+
+.imagemcomentario {
+    width: 14%;
+    height: 60px;
+    margin: 2px 14px;
+}
+
+.geralperfildois{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.estrelas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centralizar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lapis {
+    background-color: green;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    color: white;
+    display: flex !important;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.caixa {
+    background-color: rgb(102, 0, 128);
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    color: white;
+    display: flex !important;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.gerallapis{
+    display: flex;
+}
+
+.produto{
+    margin-bottom: auto !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: gray !important;
+}
+
+.cartaogeral{
+    display: flex;
+    align-items: baseline;
+}
+
+.cartao{
+    color: purple;
+    margin: 0px 15px;
+}
+
+.billing{
+    margin: 10px 14px;
+}
+
+.geralcartao {
+    height: 271px;
+    border-top: 10px #b9b5b5 solid;
+    border-bottom: 130px #b9b5b5 solid;
+}
+
+.view{
+    color: blue !important;
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+}
