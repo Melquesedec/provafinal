@@ -184,6 +184,145 @@ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     display: flex;
 }
 
+.product{
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+}
 
+.botaogeral{
+    display: flex;
+    justify-content: space-between;
+}
 
+.w-75 {
+    width: 80%;
+}
+
+.progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    margin: 0px 10px 0px 10px;
+}
+
+.verde{
+    background-color: green !important;
+    width: 70%;
+}
+
+.azul{
+    width: 40%;
+    background-color: rgb(24, 100, 241);
+}
+
+.vermelho{
+    width: 30%;
+    background-color: red !important;
+}
+
+.laranja{
+    background-color: orange !important;
+    width: 80% !important;
+}
+
+.Buness{
+    margin: 5px;
+}
+
+.numero{
+    margin: 0px 10px 0px 0px;
+}
+
+.botaogeral{
+    margin: 20px 0px 0px 0px;
+}
+
+.product {
+    margin: 5px 0px -12px 5px;
+}
+
+.word{
+    margin: 5px 0px 0px 10px;
+}
+
+.valores{
+    background-color: white;
+    width: 32.54%;
+    margin: 10px 0px 0px 10px;
+    height: 460px;
+}
+
+.graficosdois{
+    display: flex;
+}
+
+.geralporcentagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+}
+
+.porcentagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.geraluser{
+    background-color: white;
+    width: 50%;
+    margin: 10px 10px 0px 10px;
+}
+
+.atividades{
+    display: flex;
+}
+
+.atividade {
+    margin: 15px 15px 0px 15px;
+}
+
+.geralperfil{
+    display: flex;
+}
+
+.imagemperfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.imagecenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes{
+    width: 95%;
+    display: flex;
+    margin: 10px;
+}
+
+.botoesperfilum{
+    width: 50%;
+    background: dodgerblue;
+    margin: 10px;
+    color: white;
+}
+
+.botoesperfildois {
+    width: 50%;
+    background: white;
+    box-shadow: 10px;
+    margin: 10px;
+}
 

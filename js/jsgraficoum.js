@@ -67,4 +67,6 @@ new Morris.Line({
     labels: ["Pushups", "Beers"],
     lineColors: ["#373651", "#E65A26"]
   });
+
+  
   
