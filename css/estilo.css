@@ -1,0 +1,598 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(185, 181, 181) !important;
+}
+
+.bar-navegacao{
+    width: 3%;
+    background-color: #354052;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.bar-navegacao:hover{
+    width: 15%;
+}
+.bar-navegacao li{
+    padding: 10px;
+    color: white;
+    display: flex;
+}
+.bar-navegacao li:hover{
+    cursor: pointer;
+    background-color: #01b400;
+    transition: .3s ease-in-out;    
+}
+.bar-navegacao .far{
+    font-size: 15px;
+    text-align: center;
+    margin-right: 15px;
+    width: 35px;
+    
+}
+.bar-navegacao .lista-top{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.ativo{
+    background-color: #01b400;
+}
+
+/* .cabecalho_lateral:hover {
+    background-color: black;
+    width: 10%;
+    transition: 0.7s all;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+} */
+
+
+.geralemote {
+    margin: 15px 0px 3px 3px;
+}
+
+.geralemote:hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.list-group-item {
+    position: relative;
+    /* display: block; */
+    padding: 0.5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    display: flex !important;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    /* display: inline-block; */
+    display: flex !important;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #1fe11f !important;
+    border-radius: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.Tasks{
+    margin: 10px;
+}
+
+.cabecalho_top{
+    width: 100%;
+}
+#emoteum{
+    margin: 15px 0px;
+}
+
+
+
+.chart {
+    border: 3px solid royalblue;
+}
+
+.graficoinicial {
+    height: 30vh;
+    background: white;
+    width: 33.3%;
+    margin: 10px 10px;
+}
+
+.segundografico {
+    height: 20vh;
+    background: white;
+    width: 25%;
+    margin: 5px 10px
+}
+
+.terceirografico {
+    height: 39vh;
+    background: white;
+    width: 50%;
+    margin: 10px 10px;
+}
+
+.grafico_um{
+    display: flex;
+}
+
+.grafico_dois{
+    display: flex;
+}
+
+.grafico_tres{
+    display: flex;
+}
+
+.graph-wrapper {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+  
+.graph {
+height: 300px;
+width: 100%;
+max-width: 750px;
+padding: 25px;
+background-color: #FFF;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#myChart {
+    display: block !important;
+    width: 573px !important;
+    height: 213px !important;
+}
+
+.geral-salario{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pontuacao {
+    display: flex;
+    justify-content: space-around;
+    height: 32px;
+}
+
+.invoicing {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    /* height: 40px; */
+    margin: 5px 15px 0px 15px;
+    align-items: center;
+}
+
+.botaoum{
+    margin: 0px 0px 0px 463px;
+}
+
+.botaodois{
+    margin: 0px 0px 0px 409px;
+}
+
+.botaotres{
+    margin: 0px 0px 0px 526px;
+}
+
+.botaoquatro{
+    margin: 0px 0px 0px 490px;
+}
+
+.image-perfil{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px 0px 0px;
+}
+
+.perfil{
+    display: flex!important;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.iniciograf{
+    margin: 0px 0px 0px 10px;
+}
+
+.box-performace{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.performace {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.performacedois{
+    background-color: white;
+    margin: 10px 15px 0px 10px;
+    width: 50%;
+}
+
+.image-mundial{
+    width: 65%;
+}
+
+.mapa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.geralperformace{
+    display: flex;
+}
+
+.product{
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+}
+
+.botaogeral{
+    display: flex;
+    justify-content: space-between;
+}
+
+.w-75 {
+    width: 80%;
+}
+
+.progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    margin: 0px 10px 0px 10px;
+}
+
+.verde{
+    background-color: green !important;
+    width: 70%;
+}
+
+.azul{
+    width: 40%;
+    background-color: rgb(24, 100, 241);
+}
+
+.vermelho{
+    width: 30%;
+    background-color: red !important;
+}
+
+.laranja{
+    background-color: orange !important;
+    width: 80% !important;
+}
+
+.Buness{
+    margin: 5px;
+}
+
+.numero{
+    margin: 0px 10px 0px 0px;
+}
+
+.botaogeral{
+    margin: 20px 0px 0px 0px;
+}
+
+.product {
+    margin: 5px 0px -12px 5px;
+}
+
+.word{
+    margin: 5px 0px 0px 10px;
+}
+
+.valores{
+    background-color: white;
+    width: 32.54%;
+    margin: 10px 0px 0px 10px;
+    height: 460px;
+}
+
+.graficosdois{
+    display: flex;
+}
+
+.geralporcentagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+}
+
+.porcentagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.geraluser{
+    background-color: white;
+    width: 50%;
+    margin: 10px 10px 0px 10px;
+}
+
+.atividades{
+    display: flex;
+}
+
+.atividade {
+    margin: 15px 15px 0px 15px;
+}
+
+.geralperfil{
+    display: flex;
+}
+
+.imagemperfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.imagecenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes{
+    width: 95%;
+    display: flex;
+    margin: 10px;
+}
+
+.botoesperfilum{
+    width: 50%;
+    background: dodgerblue;
+    margin: 10px;
+    color: white;
+}
+
+.botoesperfildois {
+    width: 50%;
+    background: white;
+    box-shadow: 10px;
+    margin: 10px;
+}
+
+.botaocoloridoum{
+    height: 15px;
+    width: 15px;
+    background-color: orange;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.botaocoloridodois{
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.botaocoloridotres{
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.geralbotaocolorido{
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+}
+
+.sombraum {
+    background: white;
+    width: 95%;
+    height: 44px;
+    border: 1px solid #e7e0e0;
+    display: flex;
+    align-content: center;
+    padding: 8px;
+    margin: -7px 36px;
+}
+
+.horario{
+    margin: 10px 36px;
+    color: gray;
+}
+
+.horariodois{
+    margin: 0px 36px;
+    color: gray;
+}
+
+.today{
+    color: gray;
+    margin: 2px 12px;
+}
+
+.yesterday{
+    color: gray;
+    margin: 50px 0px 0px 10px;
+}
+
+.imagemcomentario {
+    width: 14%;
+    height: 60px;
+    margin: 2px 14px;
+}
+
+.geralperfildois{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.estrelas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centralizar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lapis {
+    background-color: green;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    color: white;
+    display: flex !important;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.caixa {
+    background-color: rgb(102, 0, 128);
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    color: white;
+    display: flex !important;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.gerallapis{
+    display: flex;
+}
+
+.produto{
+    margin-bottom: auto !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: gray !important;
+}
+
+.cartaogeral{
+    display: flex;
+    align-items: baseline;
+}
+
+.cartao{
+    color: purple;
+    margin: 0px 15px;
+}
+
+.billing{
+    margin: 10px 14px;
+}
+
+.geralcartao {
+    height: 271px;
+    border-top: 10px #b9b5b5 solid;
+    border-bottom: 130px #b9b5b5 solid;
+}
+
+.view{
+    color: blue !important;
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.boxcenter {
+    width: 33.3%;
+    height: 210px;
+    background: white;
+    margin: 10px 10px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#geralbox{
+    display: flex;
+}
+
+.botoesbox{
+    height: 31px;
+    color: white;
+    background: #09a1e9;
+    border: 1px;
+    width: 25%;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
