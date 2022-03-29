@@ -15,6 +15,65 @@ body{
     width: 2.5%;
     align-items: center;
     text-align: center;
+    transition: 0.7s all;
+}
+
+.cabecalho_lateral:hover {
+    background-color: black;
+    width: 10%;
+    transition: 0.7s all;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+
+.geralemote {
+    margin: 15px 0px 3px 3px;
+}
+
+.geralemote:hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.list-group-item {
+    position: relative;
+    /* display: block; */
+    padding: 0.5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    display: flex !important;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    /* display: inline-block; */
+    display: flex !important;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #1fe11f !important;
+    border-radius: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.Tasks{
+    margin: 10px;
 }
 
 .cabecalho_top{
@@ -24,16 +83,7 @@ body{
     margin: 15px 0px;
 }
 
-#emoteprimeiro {
-    margin: 45px 0px 15px 0px;
-}
 
-#emotemeioum {
-    margin: 15px 0px 45px 0px;
-}
-#emotemeiodois{
-    margin: 45px 0px 15px 0px;
-}
 
 .chart {
     border: 3px solid royalblue;
@@ -490,4 +540,33 @@ a {
     justify-content: center;
     align-items: center;
     margin: 50px 0px 0px 0px;
+}
+
+.boxcenter {
+    width: 33.3%;
+    height: 210px;
+    background: white;
+    margin: 10px 10px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#geralbox{
+    display: flex;
+}
+
+.botoesbox{
+    height: 31px;
+    color: white;
+    background: #09a1e9;
+    border: 1px;
+    width: 25%;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
