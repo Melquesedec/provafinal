@@ -7,27 +7,39 @@ body{
     background-color: rgb(185, 181, 181) !important;
 }
 
-.cabecalho_lateral {
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    color: white;
-    width: 2.5%;
-    align-items: center;
-    text-align: center;
-    transition: 0.7s all;
+.bar-navegacao {
+    width: 3.6%;
+    background-color: #354052;
+    overflow: hidden;
+    white-space: nowrap;
 }
-
-.cabecalho_lateral:hover {
-    background-color: black;
-    width: 10%;
-    transition: 0.7s all;
+.bar-navegacao:hover{
+    width: 15%;
+}
+.bar-navegacao li{
+    padding: 10px;
+    color: white;
     display: flex;
-    align-items: flex-start;
-    text-align: left;
-    flex-direction: column;
-    align-content: flex-start;
-    justify-content: flex-start;
+}
+.bar-navegacao li:hover{
+    cursor: pointer;
+    background-color: #01b400;
+    transition: .3s ease-in-out;    
+}
+.bar-navegacao .far{
+    font-size: 15px;
+    text-align: center;
+    margin-right: 15px;
+    width: 35px;
+    
+}
+.bar-navegacao .lista-top{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.ativo{
+    background-color: #01b400;
 }
 
 
@@ -525,7 +537,7 @@ a {
 }
 
 .geralcartao {
-    height: 271px;
+    height: 250px;
     border-top: 10px #b9b5b5 solid;
     border-bottom: 130px #b9b5b5 solid;
 }
@@ -569,4 +581,205 @@ a {
     align-content: center;
     justify-content: center;
     align-items: center;
+}
+
+#grafico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#chart-wrapper {
+    display: inline-block;
+    position: relative;
+    height: 170px !important;
+    width: 66%;
+}
+
+.best{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.progress {
+    display: flex;
+    height: 8px !important;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    width: 80% !important;
+}
+
+.geralprogresso{
+    width: 95%;
+}
+
+.five{
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra {
+    background-color: rgb(184, 179, 179);
+    width: 90%;
+    height: 8px;
+    border-radius: 10px;
+}
+
+.subbarra{
+    background-color: yellow;
+    width: 60%;
+    height: 8px;
+}
+
+.subbarradois{
+    background-color: red;
+    width: 60%;
+    height: 8px;
+}
+
+.barratres {
+    background-color: rgb(184, 179, 179);
+    width: 100%;
+    height: 8px;
+    border-radius: 10px;
+}
+
+.subbarratres{
+    background-color: orange;
+    width: 60%;
+    height: 8px;
+}
+
+.subbarraquatro{
+    background-color: rgb(27, 109, 202);
+    width: 60%;
+    height: 8px;
+}
+
+.subbarracinco{
+    background-color: rgb(74, 192, 28);
+    width: 60%;
+    height: 8px;
+}
+
+.barradeprogresso{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imggrafico{
+    height: 204px;
+    width: 100%;
+}
+
+.geralradio {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0px 5px;
+}
+
+.radio {
+    display: flex;
+    align-items: baseline;
+    margin: 0px 45px;
+}
+
+#hr{
+    margin: 1px 0 !important;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
+
+.new {
+    margin: 0px 10px;
+    width: 30%;
+}
+
+.geralprogressodois{
+    display: flex;
+    width: 100%;
+}
+
+.geraltodos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.geraldinherio{
+    display: flex;
+    align-items: baseline;
+}
+
+#dinheiro{
+    margin: 0 10px;
+}
+
+.geraldolar{
+    display: flex;
+}
+
+.dolar{
+    margin: 0 50px;
+}
+
+#vermelho{
+    color: red;
+}
+
+.graficoquatro{
+    width: 200px;
+    height: 200px;
+}
+
+.boxgrafico{
+    background-color: white;
+    width: 50%;
+    margin: 5px;
+}
+
+.geralnumber{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.graficosimg{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.primeirovalor{
+    margin: 0 17px;
+}
+
+.segundovalor{
+    margin: 0px 16px 0px 0px;
+}
+
+.terceirovalor{
+    margin: 0px 67px 0px 0px;
+}
+
+.p{
+    margin-bottom: 0px !important;
+}
+
+.progressosdash{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.geralrate{
+    width: 13%;
 }

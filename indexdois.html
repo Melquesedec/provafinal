@@ -11,18 +11,29 @@
 </head>
 <body>
     <div class="d-flex">
-        <div class="cabecalho_lateral">
-            <i id="emoteprimeiro" class="far fa-home"></i>
-            <i id="emoteum" class="fas fa-tachometer-alt-slow"></i>
-            <i id="emoteum" class="fas fa-chart-line"></i>
-            <i id="emoteum" class="fas fa-rocket"></i>
-            <i id="emotemeioum" class="far fa-th"></i>
-            <i id="emotemeiodois" class="far fa-street-view"></i>
-            <i id="emoteum" class="far fa-users"></i>
-            <i id="emoteum" class="far fa-copy"></i>
-            <i id="emoteum" class="far fa-sticky-note"></i>
-            <i id="emoteum" class="far fa-search"></i>
-        </div>
+        <div class="bar-navegacao">
+            <nav>
+                <ul>
+                    <!-- <i class="far fa-times"></i> -->
+                    <div class="lista-top">
+                    
+                        <a href="index.html"><li class="ativo"><i class="far fa-home-lg"></i>Overview</li></a>
+                        <a href="index2.html"><li><i class="far fa-tachometer-alt-fast"></i>Performance</li></a>
+                        <a href="#"><li><i class="far fa-chart-line"></i>Analytics</li></a>
+                        <a href="index4.html"><li><i class="far fa-rocket"></i>Landing</li></a>
+                        <a href="index5.html"><li><i class="far fa-th"></i>Projects</li></a>
+                    </div>
+                    <div class="lista-bottom">
+                        <a href="#"><li><i class="far fa-street-view"></i>User Profiles</li></a>
+                        <a href="#"><li><i class="far fa-users"></i>Candidates</li></a>
+                        <a href="#"><li><i class="far fa-copy"></i>Invoices</li></a>
+                        <a href="#"><li><i class="far fa-file-alt"></i>Single Invoice</li></a>
+                        <a href="#"><li><i class="far fa-search"></i>Browser</li></a>
+                        
+                    </div>
+                </ul>
+            </nav>
+         </div>
         <header class="cabecalho_top">
             <nav class="navbar navbar-light bg-light">
                 <div class="container-fluid">
@@ -146,7 +157,95 @@
                         </div>
                         <div>
                             <div id="grafico">
-                                
+                                <style>
+                                    #chart-wrapper {
+                                        display: inline-block; position: relative; height: 400px; width: 66%;
+                                    }
+                                    </style>
+                                    <div id="chart-wrapper">
+                                      <canvas id="chart"></canvas>
+                                    </div>
+                                    
+                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+                                    
+                                    <script>
+                                    
+                                      const ctx = document.getElementById('chart').getContext('2d');
+                                    
+                                      const chart = new Chart(ctx, {
+                                          // The type of chart we want to create
+                                          type: 'bar',
+                                           data: {
+                                            labels: ["Red", "Yellow", "Red", "Yellow", "Red", "Yellow"],
+                                            datasets: [{
+                                                label: '# of Votes',
+                                                data: [12, 19, 3, 5, 2, 3],
+                                                backgroundColor: [
+                                                    'rgba(255, 99, 132, 0.2)',
+                                                    'rgba(255, 206, 86, 0.2)',
+                                                    'rgba(255, 99, 132, 0.2)',
+                                                    'rgba(255, 206, 86, 0.2)',
+                                                    'rgba(255, 99, 132, 0.2)',
+                                                    'rgba(255, 206, 86, 0.2)'
+                                                ],
+                                                borderColor: [
+                                                    'rgba(255,99,132,1)',
+                                                    'rgba(255, 206, 86, 1)',
+                                                    'rgba(255,99,132,1)',
+                                                    'rgba(255, 206, 86, 1)',
+                                                    'rgba(255,99,132,1)',
+                                                    'rgba(255, 206, 86, 1)'
+                                                ],
+                                                borderWidth: 1
+                                            }]
+                                        },
+                                          // Configuration options go here
+                                          options: {
+                                            responsive: true,
+                                            scales: {
+                                              xAxes: [{ticks: {beginAtZero: true}, gridLines: {zeroLineColor: 'red', drawBorder: true, display: true, zeroLineWidth: 5}}],
+                                              // yAxes: [{ticks: {beginAtZero: true}, gridLines: {zeroLineColor: 'red', drawBorder: true, display: true, zeroLineWidth: 5}}]
+                                              
+                                            }
+                                          }
+                                      });
+                                </script>
+                                <div class="best">
+                                    <p>BEST DAY DAY 21</p>
+                                    <p>AVERAGE 32</p>
+                                </div>
+                                <div class="geralprogresso">
+                                    <div class="five">
+                                        <p>THIS MONTH</p>
+                                    </div>
+                                    <div class="barradeprogresso">
+                                        <div class="barra">
+                                            <div class="subbarra">
+
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>21</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="best">
+                                    <p>BEST DAY DAY 21</p>
+                                    <p>AVERAGE 32</p>
+                                </div>
+                                <div class="geralprogresso">
+                                    <div class="five">
+                                        <p>LAST MONTH</p>
+                                    </div>
+                                    <div class="barradeprogresso">
+                                        <div class="barra">
+                                            <div class="subbarradois"></div>
+                                        </div>
+                                        <div>
+                                            <h5>34</h5>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>  
                         </div>
                     </div>
@@ -160,13 +259,49 @@
                         </div>
                         <div>
                             <div id="grafico">
-                                
-                            </div>  
+                                <img class="imggrafico" src="https://cdn.diferenca.com/imagens/grafico-coluna-cke.jpg">
+                            </div> 
+                            <hr>
+                            <div class="geralradio">
+                                <div class="radio">
+                                    <input type="radio" name="New" id="New"><p>New</p>
+                                </div>
+                                <div class="radio">
+                                    <input type="radio" name="New" id="New"><p>Returning</p>
+                                </div>
+                                <div class="radio">
+                                    <input type="radio" name="New" id="New"><p>Referrais</p>
+                                </div> 
+                            </div>
+                        </div>
+                        <hr id="hr">
+                        <div class="geralprogressodois">
+                            <div class="new">
+                                <h6>39</h6>
+                                <p >NEW</p>
+                                <div class="barratres">
+                                    <div class="subbarratres"></div>
+                                </div>
+                            </div>
+                            <div class="new">
+                                <h6>39</h6>
+                                <p >NEW</p>
+                                <div class="barratres">
+                                    <div class="subbarraquatro"></div>
+                                </div>
+                            </div>
+                            <div class="new">
+                                <h6>39</h6>
+                                <p >NEW</p>
+                                <div class="barratres">
+                                    <div class="subbarracinco"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="valores">
                         <div class="geralporcentagem">
-                            <h5>Daily Sales</h5>
+                            <h5>Profit</h5>
                             <div class="porcentagem">
                                 <h5>$1.435</h5>
                                 <p>+16.2%</p>
@@ -174,8 +309,38 @@
                         </div>
                         <div>
                             <div id="grafico">
-                                
-                            </div>  
+                                <img src="http://1.bp.blogspot.com/-PuWU-ZDYWMA/UKarqVcHNkI/AAAAAAAACpU/1yD3n2me870/s1600/limha.png">
+                            </div> 
+                            <hr id="hr"> 
+                            <div class="geraltodos">
+                                <div class="geraldinherio">
+                                    <input type="radio" name="din" id="dinheiro"><p>Paypal</p></input>
+                                </div>
+                                <div class="geraldolar">
+                                    <p class="dolar">$365</p>
+                                    <p id="vermelho">18.7%^</p>
+                                </div>
+                            </div>
+                            <hr id="hr"> 
+                            <div class="geraltodos">
+                                <div class="geraldinherio">
+                                    <input type="radio" name="din" id="dinheiro"><p>Gumroad</p></input>
+                                </div>
+                                <div class="geraldolar">
+                                    <p class="dolar">$299</p>
+                                    <p>18.7%^</p>
+                                </div>
+                            </div>
+                            <hr id="hr"> 
+                            <div class="geraltodos">
+                                <div class="geraldinherio">
+                                    <input type="radio" name="din" id="dinheiro"><p>Others</p></input>
+                                </div>
+                                <div class="geraldolar">
+                                    <p class="dolar">$369</p>
+                                    <p>18.7%^</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -190,6 +355,5 @@
     <script src="js/jsgraficoum.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-    <script src="https://code.highcharts.com/highcharts.js"></script>
 </body>
 </html>
