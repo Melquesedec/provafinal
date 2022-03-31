@@ -537,9 +537,13 @@ a {
 }
 
 .geralcartao {
-    height: 250px;
+    height: 266px;
     border-top: 10px #b9b5b5 solid;
     border-bottom: 130px #b9b5b5 solid;
+}
+
+.estrelasdois{
+    display: flex;
 }
 
 .view{
@@ -665,6 +669,24 @@ a {
     height: 8px;
 }
 
+.subbarraseis{
+    background-color: rgb(28, 132, 192);
+    width: 60%;
+    height: 8px;
+}
+
+.subbarrasete{
+    background-color: rgb(192, 140, 28);
+    width: 60%;
+    height: 8px;
+}
+
+.subbarraoito{
+    background-color: rgb(28, 44, 192);
+    width: 60%;
+    height: 8px;
+}
+
 .barradeprogresso{
     display: flex;
     flex-direction: row;
@@ -735,14 +757,15 @@ a {
     color: red;
 }
 
-.graficoquatro{
-    width: 200px;
+.graficoquatro {
+    width: 290px;
     height: 200px;
+    margin: 10px;
 }
 
-.boxgrafico{
+.boxgrafico {
     background-color: white;
-    width: 50%;
+    width: 99%;
     margin: 5px;
 }
 
@@ -758,16 +781,16 @@ a {
     flex-direction: row;
 }
 
-.primeirovalor{
-    margin: 0 17px;
+.primeirovalor {
+    margin: 0 33px;
 }
 
-.segundovalor{
-    margin: 0px 16px 0px 0px;
+.segundovalor {
+    margin: 0px 34px 0px 0px;
 }
 
-.terceirovalor{
-    margin: 0px 67px 0px 0px;
+.terceirovalor {
+    margin: 0px 154px 0px 0px;
 }
 
 .p{
@@ -780,6 +803,224 @@ a {
     justify-content: space-around;
 }
 
-.geralrate{
-    width: 13%;
+.geralrate {
+    width: 23%;
+    margin: 10px;
+}
+
+.over{
+    margin: 0 5px;
+}
+
+.geralembaixo{
+    display: flex;
+    flex-direction: row;
+}
+
+.geraldireito{
+    background-color: white;
+    width: 99%;
+    margin: 5px;
+}
+
+.geralopen{
+    width: 48%;
+}
+
+.geralboxdois {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 7px 7px 0px 7px;
+}
+
+.pdf {
+    display: flex;
+    align-items: center;
+}
+
+.imgpdf{
+    margin: 0px 0px 0px 50px;
+    color: red;
+}
+
+.imgdoc{
+    margin: 0px 0px 0px 50px;
+}
+
+.mb{
+    margin: 0px 110px 0px 0px;
+}
+
+.geralselect{
+    display: flex;
+    justify-content: space-between;
+}
+
+.geralrevenue{
+    background-color: white;
+    margin: 10px;
+    width: 65%;
+}
+
+.gerallado {
+    background-color: white;
+    margin: 10px;
+    width: 96%;
+    height: 225px;
+}
+
+.imggeral{
+    display: flex;
+    justify-content: center;
+}
+
+.imgdois{
+    width: 67%;
+}
+
+.january {
+    display: flex;
+    /* margin: 15px; */
+    padding: 12px;
+    justify-content: space-between;
+}
+
+.geraltop{
+    display: flex;
+}
+
+.geralp {
+    width: 60%;
+    margin: 10px;
+}
+
+.rat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.barraquatro {
+    background-color: rgb(184, 179, 179);
+    width: 69%;
+    height: 8px;
+    border-radius: 10px;
+}
+
+.geralladodois {
+    background-color: white;
+    margin: 10px;
+    width: 96%;
+    height: 247px;
+}
+
+.CTM{
+    margin: 10px;
+}
+
+.C3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.T5{
+    display: flex;
+    justify-content: space-between;
+}
+
+.M2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.geralt{
+    width: 93%;
+    margin: 10px;
+}
+
+.barrart{
+    background-color: rgb(184, 179, 179);
+    width: 54%;
+    height: 8px;
+    border-radius: 10px;
+}
+
+.iconsum{
+    background: white;
+    width: 26%;
+    margin: 10px;
+}
+
+.iconsgeral{
+    display: flex;
+    align-items: center;
+}
+
+.iconegrafico {
+    background: orange;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 10px;
+}
+
+.iconegraficodois {
+    background: rgb(163, 33, 175);
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 10px;
+}
+
+.numeroex{
+    display: flex;
+    align-items: center;
+}
+
+.geralnumerox{
+    margin: 15px;
+}
+
+.boxicons{
+    display: flex;
+    margin: 6px;
+}
+
+.red{
+    color: red;
+}
+
+.geralultimo {
+    background: white;
+    width: 50%;
+    height: 275px;
+    margin: 5px 15px;
+}
+
+.MAWM{
+    display: flex;
+    justify-content: space-around;
+}
+
+.recent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px;
+    padding: 3px 13px;
+}
+
+.boxultimo{
+    display: flex;
 }
