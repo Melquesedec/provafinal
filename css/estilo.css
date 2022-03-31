@@ -1024,3 +1024,32 @@ a {
 .boxultimo{
     display: flex;
 }
+/* PAGINA 5 */
+
+.preco,.statusProjects{
+    margin: 10px;
+}
+.preco1, .preco2, .preco3, .preco4{
+    width: 25%;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+}
+.preco3{
+background-color: orangered;
+}
+.statusProjects{
+    padding: 5px;
+}
+.subtitleP p {
+    margin-left: 10px;
+}
+.subtitleP{
+    margin-top: 16px;
+}
+.iconP{
+    margin-right:13px;
+}
+.statusProjects{
+    margin: 15px;
+}
