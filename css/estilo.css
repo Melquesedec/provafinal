@@ -12,6 +12,7 @@ body{
     background-color: #354052;
     overflow: hidden;
     white-space: nowrap;
+    height: 100vh !important;
 }
 .bar-navegacao:hover{
     width: 15%;
@@ -1050,6 +1051,157 @@ background-color: orangered;
 .iconP{
     margin-right:13px;
 }
-.statusProjects{
+.statusProjects,.parametros{
     margin: 15px;
+}
+.parametro1{
+    width: 16.66%;
+    
+}
+.check{
+    margin-top: 40px;
+}
+.Pcheck{
+    margin-bottom: auto;
+}
+.custumBtn1{
+    color: yellow;
+}
+.movimentacao{
+    margin-top: 40px;
+}
+.movimentacao2{
+    margin-top: 39px;
+}
+
+/* sete pagina */
+
+.boxum {
+    background-color: white;
+    margin: 10px;
+    width: 33.3%;
+    height: 175px;
+}
+
+.boxdois {
+    background-color: white;
+    margin: 10px;
+    width: 33.3%;
+    height: 370px;
+}
+.nomeum{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+.iconeum{
+    display: flex;
+    align-items: center;
+}
+
+.india{
+    display: flex;
+    align-items: baseline;
+}
+
+.india2{
+    margin: 5px;
+}
+
+.btnm {
+    width: 45%;
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    background: white;
+    color: green;
+    justify-content: center;
+}
+
+.btnn {
+    width: 45%;
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    background: #4ea0e7;
+    color: white;
+    justify-content: center;
+}
+
+.botoesum {
+    display: flex;
+    justify-content: center;
+}
+
+.geralbox1{
+    display: flex;
+}
+
+.computador1 {
+    width: 96%;
+    margin: 10px 0px;
+    height: 260px;
+}
+
+.boxdois {
+    background-color: white;
+    margin: 10px;
+    width: 31.3%;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boximg{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+}
+
+.imgpessoa1 {
+    width: 60px;
+    height: 60px;
+    border: 50px;
+    background: white;
+    border-radius: 50px;
+}
+
+.geralimgpessoa {
+    width: 91%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -40px;
+}
+
+.geralma {
+    display: flex;
+    width: 91%;
+    margin-top: -22px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ma{
+    margin: 0px 64px;
+}
+
+.hrdesgracado{
+    width: 100%;
+}
+
+.botoesdois {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.geralpessoa2{
+    width: 91%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0px;
 }
